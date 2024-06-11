@@ -1,3 +1,4 @@
+import svgSprite from '../img/sprite.svg';
 import { cards } from './cards';
 
 export function initializeGallery() {
@@ -23,10 +24,10 @@ export function initializeGallery() {
             <h3>Today</h3>
             <div class="details-stats">
               <p>
-                <svg class="like-icon"><use href="/webspark/src/img/sprite.svg.svg${card.likeIcon}"></use></svg> ${card.likes}
+                <svg class="like-icon"><use href="${svgSprite}${card.likeIcon}"></use></svg> ${card.likes}
               </p>
               <p>
-                <svg class="comment-icon"><use href="./img/sprite.svg${card.commentIcon}"></use></svg> ${card.comments}
+                <svg class="comment-icon"><use href="${svgSprite}${card.commentIcon}"></use></svg> ${card.comments}
               </p>
             </div>
           </div>
