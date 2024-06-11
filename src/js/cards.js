@@ -1,6 +1,22 @@
+import img1 from '../img/cards/img1.webp'
+import img2 from '../img/cards/img1.webp';
+import img3 from '../img/cards/img1.webp';
+import img4 from '../img/cards/img1.webp';
+import img5 from '../img/cards/img1.webp';
+import img6 from '../img/cards/img1.webp';
+import img7 from '../img/cards/img1.webp';
+import img8 from '../img/cards/img1.webp';
+import img9 from '../img/cards/img1.webp';
+import img10 from '../img/cards/img1.webp';
+import img11 from '../img/cards/img1.webp';
+import img12 from '../img/cards/img1.webp';
+import img13 from '../img/cards/img1.webp';
+import img14 from '../img/cards/img1.webp';
+import img15 from '../img/cards/img1.webp';
+
 export const cards = [
   {
-    img: './img/cards/img1.webp',
+    img: img1,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -11,7 +27,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '../img/cards/img2.webp',
+    img: img2,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -22,7 +38,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img3.webp',
+    img: img3,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -33,7 +49,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/src/img/cards/img4.webp',
+    img: img4,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -44,7 +60,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/webspark/src/img/cards/img5.webp',
+    img: img5,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -55,7 +71,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img6.webp',
+    img: img6,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -66,7 +82,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img7.webp',
+    img: img7,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -77,7 +93,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img8.webp',
+    img: img8,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -88,7 +104,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img9.webp',
+    img: img9,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -99,7 +115,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img10.webp',
+    img: img10,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -110,7 +126,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img11.webp',
+    img: img11,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -121,7 +137,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img12.webp',
+    img: img12,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -132,7 +148,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img13.webp',
+    img: img13,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -143,7 +159,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img14.webp',
+    img: img14,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -154,7 +170,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img15.webp',
+    img: img15,
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
