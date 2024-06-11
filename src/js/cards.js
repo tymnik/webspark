@@ -1,6 +1,6 @@
 export const cards = [
   {
-    img: '/img/cards/img1.webp',
+    img: './img/cards/img1.webp',
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
@@ -11,7 +11,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img2.webp',
+    img: '../img/cards/img2.webp',
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
