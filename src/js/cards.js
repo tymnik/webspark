@@ -1,4 +1,4 @@
-import img1 from '../img/cards/img1.webp'
+import img1 from '../img/cards/img1.webp';
 import img2 from '../img/cards/img2.webp';
 import img3 from '../img/cards/img3.webp';
 import img4 from '../img/cards/img4.webp';
