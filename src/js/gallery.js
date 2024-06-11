@@ -23,7 +23,7 @@ export function initializeGallery() {
             <h3>Today</h3>
             <div class="details-stats">
               <p>
-                <svg class="like-icon"><use href="../img/sprite.svg${card.likeIcon}"></use></svg> ${card.likes}
+                <svg class="like-icon"><use href="/webspark/src/img/sprite.svg.svg${card.likeIcon}"></use></svg> ${card.likes}
               </p>
               <p>
                 <svg class="comment-icon"><use href="./img/sprite.svg${card.commentIcon}"></use></svg> ${card.comments}
