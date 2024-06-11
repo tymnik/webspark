@@ -35,10 +35,10 @@ export function initializeGallery() {
             <h3>${card.date}</h3>
             <div class="details-date-stats">
               <p>
-                <svg class="like-icon"><use href="/src/img/sprite.svg${card.likeIcon}"></use></svg> ${card.likes2}
+                <svg class="like-icon"><use href="${svgSprite}${card.likeIcon}"></use></svg> ${card.likes2}
               </p>
               <p>
-                <svg class="comment-icon"><use href="/img/sprite.svg${card.commentIcon}"></use></svg> ${card.comments2}
+                <svg class="comment-icon"><use href="${svgSprite}${card.commentIcon}"></use></svg> ${card.comments2}
               </p>
             </div>
           </div>

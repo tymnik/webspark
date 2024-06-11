@@ -44,7 +44,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img5.webp',
+    img: '/webspark/src/img/cards/img5.webp',
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
