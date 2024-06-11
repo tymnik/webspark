@@ -1,13 +1,47 @@
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+    <a href="./index.html" class="logo-link"></a>
+    <div class="header-info">
+        <div class="project-details">
+            <h2 class="project-name">
+                monblanproject
+            </h2>
+            <h3 class="project-start">
+                Start on 17-02-2016
+            </h3>
+        </div>
+        <ul class="stats">
+            <li class="stat-element"><span class="empasized-text">870</span> posts</li>
+            <li class="stat-element2"><span class="empasized-text">11,787</span> followers</li>
+            <li class="stat-element"><span class="empasized-text">112</span> following</li>
+        </ul>
+        <div class="datepicker">
+            <div class="flatpickr">
+                <label for="date">Date</label>
+                <input type="text" id="fromDate" placeholder="from" data-input>
+                <button class="input-button clear-button" title="clear" data-clear>
+                    <svg class="clear">
+                        <use href="../img/sprite.svg#clear"></use>
+                    </svg>
+                </button>
+                <button class="input-button calendar-button" title="toggle" data-toggle>
+                    <svg class="calendar">
+                        <use href="../img/sprite.svg#calendar"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="flatpickr">
+                <input type="date" id="toDate" placeholder="dd-mm-yyyy" data-input>
+                <button class="input-button clear-button" title="clear" data-clear>
+                    <svg class="clear">
+                        <use href="../img/sprite.svg#clear"></use>
+                    </svg>
+                </button>
+                <button class="input-button calendar-button" title="toggle" data-toggle>
+                    <svg class="calendar">
+                        <use href="../img/sprite.svg#calendar"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
 </header>

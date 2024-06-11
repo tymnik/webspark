@@ -1,25 +1,39 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
-@import url('./vite-promo.css');
+@import url('./vars.css');
 @import url('./header.css');
+@import url('./gallery.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--black);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+.container {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    body {
+        background-image: url('../img/bg-1.svg'), url('../img/bg-2.svg');
+        background-position: top left,
+            bottom 41px right;
+        background-size: 630px 398px, 210px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
 }

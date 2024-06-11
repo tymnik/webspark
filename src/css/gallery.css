@@ -1,0 +1,266 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters {
+    display: flex;
+    gap: 21px;
+    margin-left: auto;
+    margin-top: 18px;
+    margin-right: auto;
+}
+
+#previewBtn,
+#rowsBtn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.thumbnail {
+    width: 22px;
+    height: 22px;
+    fill: var(--grey-filters);
+}
+
+.row-btn {
+    width: 24px;
+    height: 22px;
+    fill: var(--grey-filters);
+}
+
+.thumbnail,
+.row-btn {
+    transition: all var(--transition);
+}
+
+.thumbnail:hover,
+.thumbnail:focus,
+.row-btn:hover,
+.row-btn:focus {
+    fill: var(--accentuated);
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.like-icon {
+    width: 15px;
+    height: 13.5px;
+    fill: var(--black);
+}
+
+.comment-icon {
+    width: 15px;
+    height: 15px;
+    fill: var(--black);
+}
+
+#loadMoreBtn {
+    width: 111px;
+    height: 28px;
+    color: var(--grey);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: -0.03em;
+    border: 1px solid var(--grey);
+    border-radius: 14px;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin: 33px auto 61px;
+    transition: all var(--transition);
+}
+
+#loadMoreBtn:hover,
+#loadMoreBtn:focus {
+    border-color: var(--accentuated);
+    color: var(--accentuated);
+}
+
+#loadMoreBtn:active,
+.thumbnail:active,
+.row-btn:active {
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12);
+    scale: 0.9;
+}
+
+/*-----PREVIEW-VARIANT-----*/
+
+.gallery.preview {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    gap: 8px;
+}
+
+.gallery.preview .card {
+    width: 203px;
+    height: 341px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    max-width: 203px;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.card-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.details-today,
+.details-date,
+.upload {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--black);
+    gap: 9px;
+}
+
+.gallery.preview .details-stats,
+.gallery.preview .details-date-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 24px;
+}
+
+.upload-date {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 26px;
+}
+
+/*-----ROWS-VARIANT-----*/
+
+.gallery.rows {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    gap: 8px;
+}
+
+.gallery.rows .card {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.gallery.rows .card img {
+    width: 86px;
+    height: 86px;
+}
+
+.gallery.rows .card-info {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery.rows .card .details-stats {
+    display: flex;
+    gap: 18px;
+}
+
+.gallery.rows .card .details-date-stats {
+    display: flex;
+    gap: 26px;
+}
+
+.gallery.rows .upload {
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.gallery.rows .upload span {
+    display: flex;
+    margin-left: 0;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .filters {
+        margin-right: unset;
+    }
+
+    .gallery.preview {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 16px 8px;
+        margin: 23px auto 0;
+    }
+
+    .gallery.rows {
+        display: flex;
+        margin: 23px auto 0;
+        width: 636px;
+        height: 100%;
+        gap: 8px;
+    }
+
+    .gallery.rows .card {
+        width: 636px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .gallery.rows .card-info {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+    }
+
+    .gallery.rows .upload {
+        margin: unset;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .gallery.preview {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .gallery.rows {
+        width: 836px;
+    }
+
+    .gallery.rows .card {
+        width: 836px;
+        gap: 14px;
+    }
+
+    .gallery.rows .card-info {
+        width: 641px;
+    }
+}
+
+img {
+    transition: all var(--transition);
+}
+
+img:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
