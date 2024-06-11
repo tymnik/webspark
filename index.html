@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <title>monblanproject</title>
+  
+  <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-a4e39586.js">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/index-34eaa11a.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="./index.html" class="logo-link"></a>
+    <div class="header-info">
+        <div class="project-details">
+            <h2 class="project-name">
+                monblanproject
+            </h2>
+            <h3 class="project-start">
+                Start on 17-02-2016
+            </h3>
+        </div>
+        <ul class="stats">
+            <li class="stat-element"><span class="empasized-text">870</span> posts</li>
+            <li class="stat-element2"><span class="empasized-text">11,787</span> followers</li>
+            <li class="stat-element"><span class="empasized-text">112</span> following</li>
+        </ul>
+        <div class="datepicker">
+            <div class="flatpickr">
+                <label for="date">Date</label>
+                <input type="text" id="fromDate" placeholder="from" data-input>
+                <button class="input-button clear-button" title="clear" data-clear>
+                    <svg class="clear">
+                        <use href="../img/sprite.svg#clear"></use>
+                    </svg>
+                </button>
+                <button class="input-button calendar-button" title="toggle" data-toggle>
+                    <svg class="calendar">
+                        <use href="../img/sprite.svg#calendar"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="flatpickr">
+                <input type="date" id="toDate" placeholder="dd-mm-yyyy" data-input>
+                <button class="input-button clear-button" title="clear" data-clear>
+                    <svg class="clear">
+                        <use href="../img/sprite.svg#clear"></use>
+                    </svg>
+                </button>
+                <button class="input-button calendar-button" title="toggle" data-toggle>
+                    <svg class="calendar">
+                        <use href="../img/sprite.svg#calendar"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+  <main>
+    <section id="gallery-section">
+      <section class="gallery container">
+    <div class="filters">
+        <button id="previewBtn">
+            <svg class="thumbnail">
+                <use href="../img/sprite.svg#filter-thumbnail"></use>
+            </svg>
+        </button>
+        <button id="rowsBtn">
+            <svg class="row-btn">
+                <use href="../img/sprite.svg#filter-rows"></use>
+            </svg>
+        </button>
+    </div>
+    <div id="gallery" class="gallery preview">
+    </div>
+    <button id="loadMoreBtn">Load More</button>
+</section>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  
+</body>
+
+</html>
