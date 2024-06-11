@@ -23,10 +23,10 @@ export function initializeGallery() {
             <h3>Today</h3>
             <div class="details-stats">
               <p>
-                <svg class="like-icon"><use href="../img/sprite.svg${card.likeIcon}"></use></svg> ${card.likes}
+                <svg class="like-icon"><use href="/img/sprite.svg${card.likeIcon}"></use></svg> ${card.likes}
               </p>
               <p>
-                <svg class="comment-icon"><use href="../img/sprite.svg${card.commentIcon}"></use></svg> ${card.comments}
+                <svg class="comment-icon"><use href="/img/sprite.svg${card.commentIcon}"></use></svg> ${card.comments}
               </p>
             </div>
           </div>
@@ -34,10 +34,10 @@ export function initializeGallery() {
             <h3>${card.date}</h3>
             <div class="details-date-stats">
               <p>
-                <svg class="like-icon"><use href="../img/sprite.svg${card.likeIcon}"></use></svg> ${card.likes2}
+                <svg class="like-icon"><use href="/img/sprite.svg${card.likeIcon}"></use></svg> ${card.likes2}
               </p>
               <p>
-                <svg class="comment-icon"><use href="../img/sprite.svg${card.commentIcon}"></use></svg> ${card.comments2}
+                <svg class="comment-icon"><use href="/img/sprite.svg${card.commentIcon}"></use></svg> ${card.comments2}
               </p>
             </div>
           </div>
