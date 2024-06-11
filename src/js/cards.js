@@ -33,7 +33,7 @@ export const cards = [
     uploadDate: '11-04-2016',
   },
   {
-    img: '/img/cards/img4.webp',
+    img: '/src/img/cards/img4.webp',
     likeIcon: '#like',
     likes: 128,
     likes2: 67,
